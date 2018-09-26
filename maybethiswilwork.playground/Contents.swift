@@ -1,17 +1,23 @@
 //: Playground - noun: a place where people can play
 
-import UIKit
+//import UIKit
 
 var str = "Hello, playground"
-var Jensen = "The best human cause just duh"
-Jensen
+var Jensen = "The best human duh"
 
-var x = 0
-var y = 1
-while (x<y)
-{
-    x+1
-    y+1
-    
-    
+
+
+
+//Encryption device thing, supposed to take out all letters on line 29 from the input on line 27
+
+let puzzleinput = "Freakin the party harty animals are"
+var puzzleout = "freakin aids youre dumb boi"
+let charactersToRemove: [Character] = ["a", "A", "l", "i", "x", "J", "j", "e", "n", "s"]
+for character in puzzleinput{
+    if charactersToRemove.contains(character) {
+        continue
+    }
+    puzzleout.append(character)
 }
+print(puzzleout)
+
