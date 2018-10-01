@@ -1,6 +1,6 @@
 //: Playground - noun: a place where people can play
 
-import UIKit
+//import UIKit
 
 var str = "Hello, playground"
 var Jensen = "The best human duh"
@@ -53,8 +53,8 @@ var Jensen = "The best human duh"
             variableString += " and carriage"
             // variableString is now "Horse and carriage"
 
-//            let constantString = "Highlander"
-//            constantString += " and another Highlander"
+            //let constantString = "Highlander"
+            //constantString += " and another Highlander"
             // this reports a compile-time error - a constant string cannot be modified
         //Combining multiple strings
             let string1 = "hello"
@@ -65,6 +65,16 @@ var Jensen = "The best human duh"
             let unusualMenagerie = "Koala 🐨, Snail 🐌, Penguin 🐧, Dromedary 🐪"
             print("unusualMenagerie has \(unusualMenagerie.count) characters")
             // Prints "unusualMenagerie has 40 characters"
+    //Functions------------------------------------------------------------------------------------------------------------------------
+        //Functions start with func and then the name that it will be called followed by the
+        //parameter of the output ie string or double and then an arrow sign -> to what the output is supposed to be
+        // ie double int string etc and then all the actual code and equations and jazz
+        //Examples
+        let a = 23
+        let b = 32
+        func addTwoInts(a:Int,b:Int) -> Int {
+                return a+b
+        }
 
 
 
