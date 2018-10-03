@@ -1,12 +1,12 @@
 //: Playground - noun: a place where people can play
 
-//import UIKit
+import UIKit
 
 var str = "Hello, playground"
 var Jensen = "The best human duh"
 
 
-
+/*
 
 //Encryption device thing, supposed to take out all letters on line 29 from the input on line 27
 
@@ -65,7 +65,9 @@ var Jensen = "The best human duh"
             let unusualMenagerie = "Koala 🐨, Snail 🐌, Penguin 🐧, Dromedary 🐪"
             print("unusualMenagerie has \(unusualMenagerie.count) characters")
             // Prints "unusualMenagerie has 40 characters"
-    //Functions------------------------------------------------------------------------------------------------------------------------
+
+ */
+ //Functions------------------------------------------------------------------------------------------------------------------------
         //Functions start with func and then the name that it will be called followed by the
         //parameter of the output ie string or double and then an arrow sign -> to what the output is supposed to be
         // ie double int string etc and then all the actual code and equations and jazz
@@ -75,7 +77,19 @@ var Jensen = "The best human duh"
         func addTwoInts(a:Int,b:Int) -> Int {
                 return a+b
         }
-
-
+        //UI---------------------------------------------------------------------
+//creates a button woop woop
+let myButton: UIButton
+myButton = UIButton(frame:
+    CGRect(
+        x:0,
+        y:0,
+        width:500,
+        height:30
+        )
+        )
+//if the documentation has a var then you use an = sign but if it is a func then you must use a
+// call aka phone.color(blah)
+//this. is the same in java as self. in swift
 
 
